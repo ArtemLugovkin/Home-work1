@@ -109,15 +109,18 @@ public class Main {
         System.out.println(" ");
         System.out.println(" Задание 8 - 3");
         for ( int i = 0; i < 2122; i = i + 79 ) {
-            System.out.println(i);
+            if( i > 1895 && i < 2100)
+            System.out.println(i );
         }
-
-
     }
 
     private static void task9() {
         System.out.println("Задание 9 - 3");
-
+        int u = 2;
+        for(int i = 1; i <= 10; i ++) {
+            int result = u * i;
+            System.out.println(u + "*" + i + "=" + result);
+        }
         }
 
     }
